@@ -1,0 +1,260 @@
+/* this is the amazon clone css page*/
+*{
+    margin: 0;
+    font-family: Arial;
+     border: border-box; 
+}
+.navbar{
+    height: 62px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+/* 1st content on navbar */
+.logo img{
+ 
+    height: 30px;
+    width: 100px;
+    background-size: cover;
+    position: absolute;
+    margin-top: 16px;
+}
+img{
+  border: 2px solid transparent;
+}
+img:hover{
+    border: 5px solid white;
+}
+
+/* 2nd content on navbar */
+.nav-address{
+    margin-left: 120px;
+    display: absolute;
+    align-items: center;
+    margin-top: 13px;
+    border: 2px solid transparent;
+    
+}
+.nav-address:hover{
+    border: 1.5px solid white;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline;
+}
+
+/* 3rd content on navbar */
+.nav-search{
+    margin-top: 20px;
+    display: flex;
+    background-color:  rgb(223, 176, 89);;
+    width: 880px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.nav-search:hover{
+    border: 2px solid rgb(223, 176, 89);
+}
+.search-select{
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    margin-top: 1px;
+}
+.search-input{
+    width: 800px;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    top:0%;
+}
+
+/* 4th & 5th content on navbar */
+.nav-signin{
+    margin-top: 10px;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-signin:hover{
+    border: 1.5px solid white;
+}
+
+/* 6th content on navbar */
+.nav-cart i{
+     font-size: 30px;
+     margin-top: 14px;
+}
+.nav-cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.nav-cart:hover{
+    border: 1.5px solid white;
+}
+/* panel designing  */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+
+    
+
+.panel-ops p{
+     display: inline; 
+    color: white;
+    align-items: justify; 
+    margin: 5px;
+    font-weight: 5300;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}  
+.panel-deals p{
+    color: white;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* Toys image section */
+.toys-section{
+    background-image:url("images/Toys_img.jpg") ;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.toys-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.toys-msg a{
+    color: #007185;
+}
+
+/* shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+background-color: rgb(243, 210, 63);
+
+}
+.box{
+    height: 400px;
+    width: 23%;
+   background-color: white;
+   padding: 20px 0px 5px;
+   margin-top: 15px;
+}
+.box-img{
+    background-size:cover ;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left:15px ;
+    margin-right: 15px;
+}
+.box-content p{
+    color: #007185;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+        background-color:#222f3d;
+        color: white;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color:#222f3d;
+    color: white;
+    border-top: 0.5px solid white; 
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+.pages{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.copyright{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
